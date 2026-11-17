@@ -1,0 +1,15 @@
+{
+	"name": "mssqlmigrationproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e6ee6b7d-bed9-4d54-89bd-e9ca7e36cfd0",
+		"tenantId": "a3523f1e-a238-45bf-8967-b79186cc40de"
+	}
+}
