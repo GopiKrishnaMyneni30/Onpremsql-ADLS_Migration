@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mssqlmigrationproject"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://elevanceieeee1.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://sql-server-secrets.vault.azure.net/"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "gopi"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "gopi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
